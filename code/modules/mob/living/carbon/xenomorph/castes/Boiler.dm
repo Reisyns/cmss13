@@ -21,7 +21,6 @@
 	spit_delay = 30 SECONDS
 	caste_desc = "Gross!"
 	acid_level = 3
-	caste_luminosity = 2
 	spit_types = list(/datum/ammo/xeno/boiler_gas, /datum/ammo/xeno/boiler_gas/acid)
 	fire_immunity = FIRE_VULNERABILITY
 	// 3x fire damage
@@ -40,7 +39,7 @@
 /mob/living/carbon/xenomorph/boiler
 	caste_type = XENO_CASTE_BOILER
 	name = XENO_CASTE_BOILER
-	desc = "A huge, grotesque xenomorph covered in glowing, oozing acid slime."
+	desc = "A huge, grotesque xenomorph covered in oozing acid slime."
 	icon = 'icons/mob/xenos/boiler.dmi'
 	icon_size = 64
 	icon_state = "Boiler Walking"
